@@ -1,1 +1,24 @@
+/*
+Theme Name: Sri Sumangali Luxury
+Author: Your Name
+Description: Premium Custom Coded Saari Boutique.
+Version: 1.0
+*/
 
+/* Premium Base Styles */
+body {
+    background-color: #fdfaf5; /* Luxury cream background */
+    font-family: 'Playfair Display', serif;
+    color: #2c2c2c;
+}
+
+.luxury-card {
+    border: 1px solid #d4af37; /* Gold border */
+    padding: 20px;
+    transition: all 0.4s ease;
+}
+
+.luxury-card:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
